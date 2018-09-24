@@ -1,0 +1,47 @@
+##ignore this file##
+
+.git/
+!.gitignore
+
+#android 项目文件夹
+AndroidTest/.gradle/*
+AndroidTest/.idea/*
+AndroidTest/build/*
+AndroidTest/gradle/*
+
+!AndroidTest/build.gradle
+!AndroidTest/gradle.properties
+!AndroidTest/gradlew
+!AndroidTest/gradlew.bat
+!AndroidTest/settings.gradle
+#默认保留
+#!AndroidTest/.gitignore
+
+AndroidTest/*.iml
+AndroidTest/local.properties
+
+#andorid项目主要文件夹
+#AndroidTest/app/*
+!AndroidTest/app/libs/*
+!AndroidTest/app/src/*
+!AndroidTest/app/build.gradle
+
+#默认保留
+#AndroidTest/app/.gitignore
+AndroidTest/app/proguard-rules.pro
+
+
+
+
+##*.*
+##gradlew
+local.properties
+
+# southhelper/*
+# /southhelper/build/*
+# ##./southhelper/libs/*
+# !southhelper/src
+# 
+# !southhelper/build.gradle
+# !southhelper/southhelper.iml
+
