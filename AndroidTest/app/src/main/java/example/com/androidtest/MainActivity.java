@@ -183,4 +183,11 @@ public class MainActivity extends Activity {
         return "com.android.providers.media.documents".equals(uri.getAuthority());
     }
 
+    /*basic learn */
+    private void TestBasic(){
+        //            byte[] data = new byte[]{0xAB , 57 , 90 , 50 , 10 , 00 , 30 , 00 , 00 , 10 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00};
+//            byte[] data = new byte[]{171 , 57 , 90 , 50 , 10 , 00 , 30 , 00 , 00 , 10 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00};
+        byte[] data = new byte[]{100 , 57 , 90 , 50 , 10 , 00 , 30 , 00 , 00 , 10 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00 , 00};
+    }
+
 }
